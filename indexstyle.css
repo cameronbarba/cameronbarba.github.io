@@ -53,9 +53,7 @@ h1 {
 	
 }
 
-p {
-	animation: fadeInUp 8s ease;
-}
+
 
 
 a:active {
@@ -69,7 +67,7 @@ a:hover {
 p {
 	position: absolute;
 	font-family: times new roman;
-	top: 90%;
+	top: 82%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 1.2vw;
