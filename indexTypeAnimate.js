@@ -1,5 +1,5 @@
 var i = 0;
-var text = "My name is Cameron Barba. <br> <br> I'm a Chicano developer, designer, and writer based out of California. <br> I'm a member of HOUND alongside some dope humans.'";
+var text = "My name is Cameron Barba./n/n I'm a Chicano developer, designer and writer based out of California./n I'm a member of HOUND alongside some dope humans.'";
 var speed = 50;
 
 function typeText (){
