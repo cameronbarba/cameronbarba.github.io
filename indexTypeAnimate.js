@@ -1,6 +1,6 @@
 var i = 0;
-var text = "My name is Cameron Barba.";
-var textTwo = "I'm a Chicano developer, designer and writer based out of California. I'm a member of HOUND alongside some dope humans."
+var text = "My name is Cameron Barba. I'm a Chicano developer, designer and writer based out of California. I'm a member of HOUND alongside some dope humans.";
+var textTwo = "Currently: studying Computer Science @ OSU."
 var speed = 50;
 
 function typeText (){
@@ -10,7 +10,7 @@ function typeText (){
 		i++;
 		setTimeout(typeText, speed);
 	}
-	document.getElementById("typeText").innerHTML += <br><br>
+	
 }
 
 function typeTextTwo()
