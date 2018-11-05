@@ -11,5 +11,7 @@ function typeText (){
 	}
 }
 
+typeText();
+
 // pseudeocode
 // I need to make an array or probab
