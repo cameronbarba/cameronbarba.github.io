@@ -1,7 +1,7 @@
 body {
-	background-color: #DCDCDC;
+	background-color: /*#DCDCDC*/white;
 	font-family: "Times New Roman", serif;
-	color:  /*#0000EE*/white;
+	color:  #0000EE;
 	height: 100%;
 	overflow: hidden;
 
