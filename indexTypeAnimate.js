@@ -26,7 +26,7 @@ function typeTextTwo()
 }
 
 typeText();
-typeTextTwo();
+//typeTextTwo(); running both of these functions doesn't seem to work. I need to fix this
 
 // pseudeocode
 // I need to make an array or probab
