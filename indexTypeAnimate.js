@@ -17,11 +17,11 @@ function typeTextTwo()
 {
 	if (i < textTwo.length)
 	{
-		document.getElementById("typeText").innerHTML += textTwo.charAt(i);
+		document.getElementById("info").innerHTML += textTwo.charAt(i);
 		i++
 		setTimeout(typeTextTwo, speed);
 	}
-	document.getElementById("typeText").innerHTML += <br><br>;
+	
 	
 }
 
