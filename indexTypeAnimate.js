@@ -1,7 +1,7 @@
 var i = 0;
-var text = "My name is Cameron Barba. I'm a Chicano developer, designer and writer based out of California. I'm a member of HOUND alongside some dope humans.";
-var textTwo = "Currently: studying Computer Science @ OSU."
-var speed = 50;
+var text = "My name is Cameron Barba. I'm a Chicano developer, designer, and writer based out of California. I'm a member of HOUND alongside some dope humans.";
+//var textTwo = "Currently: studying Computer Science @ OSU."
+var speed = 70;
 
 function typeText (){
 	if (i < text.length)
