@@ -8,6 +8,17 @@ body {
 
 }
 
+.navbar {
+	display: flex;
+	justfiy-content: space-between;
+}
+
+.rightside {
+	display: flex;
+	flex-direction: column;
+}
+
+
 h1 {
 	display: flex;
 	justify-content: center;
