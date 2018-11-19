@@ -17,7 +17,7 @@ a {
 .navbar {
 	display: flex;
 	flex-direction: column;
-	justfiy-content: flex-end;
+	justfiy-content: flex-start;
 }
 
 
