@@ -1,67 +1,220 @@
 body {
-	background-color: #cccccc;
-	font-family: "Roboto Mono", monospace;
-	color:  #1B3F8B;
-	height: 100%;
-	overflow: hidden;
+	font-family: "Ubuntu Mono", monospace;
+	background-color: black;
+	color: white;
+	margin: 0px;
 	
+
+
+
+
+}
+
+.header {
+	/*background-color: rgba(255,0,0,0.2);*/
+	padding: 2%;
+	display: flex;
+	align-items: center;
+	
+
+
 
 }
 
 a {
-	color: black;
-	text-decoration: none;
-	padding-left: 2%;
-	padding-right: 2%;
-
-
-
+	padding: 5%;
 }
-.nav-bar {
+
+
+
+
+.leftside {
+	/*background-color: rgba(0,0,0,0.4); */
+	width: 50%;
+	margin: 5px;
+	padding-left: 40px;
+	text-align: left;
+}
+
+.middle {
+	width: 50%;
+	
+}
+
+
+
+.nameblurb {
+	font-size: .8rem;
+}
+
+.header-bottom {
 	display: flex;
-	flex: 0 0 100%;
-	flex-direction: row;
-	justfiy-content: flex-end;
-	padding-left: 5%;
-	padding-left: 5%;
+	justify-content: space-between;
+	
+	margin-top: 2%;
+	margin-left: 2%;
+
+}
+
+.bottomleftside {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px;
+	padding-left: 40px;
+	
+	width: 50%;
+}
+
+.abouttext {
+	background-color: rgba(0,0,0,0.6);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: 700;
+
+
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
 }
 
 
 
-h1 {
+.main-content {
+	/*background-color: rgba(200,100,150,0.4);*/
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	/*margin-top: 8%;*/
+	justify-content: center;
+	align-items: center;
+	margin-top: -5%;
+	padding-bottom: 7%;
+	
+	
+}
+
+
+
+.textstuff {
+	text-align: center;
+	
+}
+
+.textarea {
+	/*background-color: rgba(0,0,0,0.3);*/
+	
+	height: 10%;
 	display: flex;
 	justify-content: center;
-	padding-top: 2%;
+	align-items: center;
 }
 
-h2 {
+.imageslides {
+	/*background-size: cover;*/
+
+	/*background-color: rgba(255,255,0,0.4);*/
+	height: 90%;
+	width: 100%;
 	display: flex;
-	justify-content: flex-start;
-	padding-top: 10%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-@media screen and (min-width: 601px) {
-	h2 {
-		font-size: 3em; 
-	
-	}
-	
-	a {
-		font-size: 1em;
-	}
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	z-index: -1;
 
 }
 
-.name {
+.about {
+	background-color: rgba(255,0,0,0.4);
+	z-index: 99;
+}
+
+
+.headertext {
+	background-color: white;
+	height: 100vh;
 	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*color: black;*/
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
-p {
-	display: flex;
-	justify-content: flex-start;
-	padding: 10%;
-	font-style: italic;
+.bio {
+	font-weight: 900;
+	color: blue;
+	line-height: 1.8;
+}
 
+.dope {
+	font-size: 4rem;
+	color: grey;
+	font-weight: 900;
+}
+
+.text {
+	/*background-color: white;
+	color: black;*/
+	margin-top: 500px;
+	margin-left: 100px;
+	margin-right: 100px;
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+
+}
+
+.text-blurb {
+	/*background-color: white;*/
+	height: 35vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.hello {
+	width:30%;
+	height: auto;
+}
+
+.images {
+	/*background-color: rgba(0,0,0,0.1);*/
+	height: 80vh;
+	background-image: url("jeeprides.jpeg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.image {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.footer-upper {
+	/*background-color: rgba(0,0,0,0.3);*/
+	height: 30vh;
+}
+
+.footer-lower {
+	/*background-color: black;*/
+	height: 15vh;
+}
+
+.fa {
+	color: grey;
 }
