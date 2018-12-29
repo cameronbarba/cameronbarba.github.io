@@ -3,12 +3,12 @@
 <head>
 	<meta charset = "utf-8">
 	<meta name = "description" content = "Cameron Barba is a developer, visual
-		artist, writer, and student.">
+	artist, writer, and student.">
 	<meta name = "keywords" content = "Cameron, Barba, Cameron Barba,
-		Software, Engineering, Engineer, San Diego Portfolio, Designer, Temecula, Riverside, Los Angeles">
+	Software, Engineering, Engineer, San Diego Portfolio, Designer, Temecula, Riverside, Los Angeles">
 	<meta name = "author" content = "Cameron Barba">
 	<meta name = "viewport" content = "width = device-width, initial-scale
-		= 1.0">
+	= 1.0">
 	<title>Cameron Barba</title>
 	<link rel="stylesheet" type="text/css" href="indexstyle.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
@@ -30,6 +30,29 @@
 		
 			
 			
+			
+		</div>
+	</div>
+
+	<div class="mobile-menu">
+		<div class="left">
+			<span style="font-size:24px;cursor:pointer" onclick="openNav()" class="nav-mobile">&#9776;</span>
+			<!-- <a href="" class="nav-mobile">&#x2630;</a> -->
+		</div>
+		<div class="middle">
+			<!-- <a href="index.html" class="logo-mobile">SE</a> -->
+					
+		</div>
+		<div id="myNav" class="overlay">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+			<a href="index.html">Home</a>
+			<a href="#about" onclick="closeNav()">About</a>
+			<a href="index.html#testimonials-section" onclick="closeNav()">Journal</a>
+			<a href="#">Portfolio</a>
+			</div>
+		</div>
+		<div class="right">
 			
 		</div>
 	</div>
@@ -63,7 +86,17 @@
 </section>
 
 
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
+
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
 
 </body>
 </html>

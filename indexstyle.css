@@ -82,6 +82,104 @@ a:hover {
 	text-decoration: underline;
 }
 
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(255,255,255, 1);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 800px) {
+	.header {
+		display: none;
+	}
+	.mobile-menu {
+	
+		background-color: transparent;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 1px;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		padding-left: 2%;
+		position: -webkit-sticky; /* Safari */
+	  	position: sticky;
+	  	top: 0;
+
+   }
+
+   .left {
+
+	margin: 5px;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+   }
+
+	.nav-mobile {
+		color: #AAA;
+		font-size: 1.2rem;
+	}
+
+	a.logo-mobile {
+		font-size: 1em;
+		font-weight: 900;
+		
+	}
+
+	.overlay a {font-size: 20px}
+	  .overlay .closebtn {
+	  font-size: 40px;
+	  top: 15px;
+	  right: 35px;
+	  }
+}
+
+@media only screen and (min-width: 800px) {
+	.mobile-menu {
+    	display: none;
+	}
+	}
+
 
 
 .main-content {
