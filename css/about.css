@@ -35,7 +35,7 @@ img {
 .social {
 	display: flex;
 	justify-content: space-around;
-	margin: 15%;
+	margin-top: 15%;
 }
 
 .social a:hover {
