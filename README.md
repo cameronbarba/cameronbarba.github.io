@@ -4,9 +4,9 @@ updated: February 6 2023
 
 <strong>THINGS TO DO:</strong>
 
-Work on homepage copy.
-Finish noise.observer
-Organize content.
+Work on homepage copy.<br>
+Finish noise.observer.<br>
+Organize content.<br>
 
 
 
